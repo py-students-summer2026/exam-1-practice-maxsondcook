@@ -91,5 +91,5 @@ def play_game():
     else:
         print("Wrong!")
 
-    correct_answers = int((correct_count/total_guesses)*100)
-    print(f"You guessed {correct_answers}% of the random numbers correctly.")
+    correct_answers = f"{correct_count/total_guesses:.0%}"
+    print(f"You guessed {correct_answers} of the random numbers correctly.")
